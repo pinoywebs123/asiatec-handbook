@@ -1,0 +1,37 @@
+<!--
+  Generated template for the MapinfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{data.content}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div *ngIf="data.id == 1">
+    <img src="img/vacinity.jpg" height="500px" width="100%">
+  </div>
+
+  <div *ngIf="data.id == 2">
+    <img src="img/ground.png" height="500px" width="100%">
+  </div>
+
+  <div *ngIf="data.id == 3">
+    <img src="img/second.png" height="500px" width="100%">
+  </div>
+
+  <div *ngIf="data.id == 4">
+    <img src="img/third.png" height="500px" width="100%">
+  </div>
+
+  <div *ngIf="data.id == 5">
+    <img src="img/fourth.png" height="500px" width="100%">
+  </div>
+</ion-content>
