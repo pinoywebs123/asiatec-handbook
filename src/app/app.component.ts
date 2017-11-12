@@ -10,6 +10,7 @@ import { OrganizationPage } from '../pages/organization/organization';
 import { MapsPage } from '../pages/maps/maps';
 import { AboutPage } from '../pages/about/about';
 import { OfferPage } from '../pages/offer/offer';
+import { FaqPage } from '../pages/faq/faq';
 
 
 @Component({
@@ -33,7 +34,8 @@ export class MyApp {
       { title: 'Do\'s & Don\'ts', component: DosPage },
       { title: 'School Organization', component: OrganizationPage },
       { title: 'Maps', component: MapsPage },
-      { title: 'About', component: AboutPage }
+      { title: 'About', component: AboutPage },
+      { title: 'FAQ\'s', component: FaqPage}
       
     ];
 
@@ -45,6 +47,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+     
     });
   }
 

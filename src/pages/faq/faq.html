@@ -1,0 +1,23 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Frequently Asked Questions</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content *ngIf="data">
+
+  <ion-card *ngFor="let morl of data" (click)="clickFaq(morl.id)">
+      <ion-card-content >
+       {{morl.id}} {{ morl.content }}
+      </ion-card-content>
+    
+    </ion-card>
+
+</ion-content>

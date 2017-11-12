@@ -1,0 +1,344 @@
+
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>FAQ's Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding="">
+  <div *ngIf="data == 1">
+    <ion-card>
+     
+      <ion-card-content>
+         <strong> Question:</strong>
+         <br>
+         <br>
+         <h5>1.What is the formula to get the Class Standing</h5>
+          <br>
+          <br>
+         <strong> Answer:</strong>
+         <br>
+         <br>
+         <p>Class Standing that involves: Quizzes, recitation/seatworks, reports/assignments, and attendance.</p>
+         <br><p>50% for the Quizzes +</p>
+         <br><p>20% for the Reports and Assignment +</p>
+         <br><p>20% for Recitation/seatworks +</p>
+         <br><p>10% for the Attendance +</p>
+         <br><p>=  100% of Class Standing</p>
+         <br><p>100% of Class Standing will become 60% when combine  with 100% result of the major exam which is 40%.</p>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <div *ngIf="data == 2">
+      <ion-card>
+       
+        <ion-card-content>
+           <strong> Question:</strong>
+           <br>
+           <br>
+           <h5>2.How to compute the General Average Grade?</h5>
+            <br>
+            <br>
+           <strong> Answer:</strong>
+           <br>
+           <br>
+           <p text-center><u>Prelim Exam (40%) + Prelim Class Standing (60%)</u></p>
+           <p text-center>= Prelim Grade (100%)</p>
+           <br>
+           <p text-center><u>Midterm Exam (40%) + Midterm Class Standing (60%)</u></p>
+           <p text-center>= Midterm Grade (100%)</p>
+           <br>
+           <p text-center><u>Pre final Exam (40%) + Pre final Class Standing (60%)</u></p>
+           <p text-center>= Pre final Grade (100%)</p>
+           <br>
+           <p text-center><u>Final  Exam (40%) + Final Class Standing (60%)</u></p>
+           <p text-center>= Final Grade (100%)</p>
+           <br>
+           <p text-center><u>Prelim + Midterm + Pre final + Final</u> =     General Average</p>
+          
+          </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div *ngIf="data == 3">
+        <ion-card>
+         
+          <ion-card-content>
+             <strong> Question:</strong>
+             <br>
+             <br>
+             <strong>3.What is the grade conversion of ASIATECH?</strong>
+              <br>
+              <br>
+             <strong> Answer:</strong>
+             <br>
+             <br>
+             <ion-grid>
+                <ion-row>
+                  <ion-col col-6>
+                    <strong>Grade</strong>
+                    <br>
+                    <br>
+                    <p>1.0</p>
+                    <p>1.1</p>
+                    <p>1.2</p>
+                    <p>1.3</p>
+                    <p>1.4</p>
+                    <p>1.5</p>
+                    <p>1.6</p>
+                    <p>1.7</p>
+                    <p>1.8</p>
+                    <p>1.9</p>
+                    <p>2.0</p>
+                    <p>2.1</p>
+                    <p>2.2</p>
+                    <p>2.3</p>
+                    <p>2.4</p>
+                    <p>2.5</p>
+                    <p>2.6</p>
+                    <p>2.7</p>
+                    <p>2.8</p>
+                    <p>2.9</p>
+                    <p>3.0</p>
+                    <p>5.0</p>
+                  </ion-col>
+                  <ion-col col-6>
+                    <strong>General Average</strong>
+                    <br>
+                    
+                    <p>98.5-100</p>
+                    <p>95.5-98.49</p>
+                    <p>93.5-95.49</p>
+                    <p>91.5-93.49</p>
+                    <p>90.5-91.49</p>
+                    <p>89.5-90.49</p>
+                    <p>88.5-89.49</p>
+                    <p>87.5-88.49</p>
+                    <p>86.5-87.49</p>
+                    <p>85.5-86.49</p>
+                    <p>84.5-85.49</p>
+                    <p>83.5-84.49</p>
+                    <p>82.5-83.49</p>
+                    <p>81.5-82.49</p>
+                    <p>80.5-81.49</p>
+                    <p>79.5-80.49</p>
+                    <p>78.5-79.49</p>
+                    <p>77.5-79.49</p>
+                    <p>76.5-77.49</p>
+                    <p>75.5-76.49</p>
+                    <p>74.5-75.49</p>
+                    <p>60.0-74.49</p>
+                  </ion-col>
+                </ion-row>
+               
+              </ion-grid>
+
+            </ion-card-content>
+           
+
+        </ion-card>
+      </div>
+
+      <div *ngIf="data == 4">
+          <ion-card>
+           
+            <ion-card-content>
+               <strong> Question:</strong>
+               <br>
+               <br>
+               <h5>4.How many late is considered as absent?</h5>
+                <br>
+                <br>
+               <strong> Answer:</strong>
+               <br>
+               <br>
+               <p>student is considered absent if he/she arrive after:</p>
+               <br>
+               <ul>
+                 <li>the first 15 minutes for a one-hour class</li>
+                 <li>the first 25 minutes for a one and Half Hour class</li>
+                 <li>the first 35 minutes for a two-hour class</li>
+                 <li>the first 45 minutes for a three-hour class</li>
+               </ul>
+               <br>
+               <p><strong>Below is the table of grades for student’s attendance</strong></p>
+               <br>
+               <p>1 hr.	absence		= 97%</p>
+               <p>2 hr.	absence		= 94%</p>
+               <p>3 hr.	absence		= 91%</p>
+               <p>4 hr.	absence		= 88%</p>
+               <p>5 hr.	absence		= 84%</p>
+               <p>6 hr.	absence		= 81%</p>
+               <p>7 hr.	absence		= 78%</p>
+               <p>8 hr.	absence		= 75%</p>
+               <p>9 hr.	absence		= 71%</p>
+               <p>10 hr.	absence		= 68%</p>
+
+              </ion-card-content>
+          </ion-card>
+        </div>
+
+        <div *ngIf="data == 5">
+            <ion-card>
+             
+              <ion-card-content>
+                 <strong> Question:</strong>
+                 <br>
+                 <br>
+                 <h5>5.How to become a Dean’s Lister?</h5>
+                  <br>
+                  <br>
+                 <strong> Answer:</strong>
+                 <br>
+                 <br>
+                 <p>Every candidate for Dean’s list scholarship must:</p>
+                 <br>
+                 <ul>
+                   <li>Have carried the normal load prescribed in his/her curriculum.</li>
+                   <li>For a transferee, one (1) semester residing period is required before period is required before he/she is qualified</li>
+                   <li>Have no final grade lower than 2.00 and/or incomplete in any  academic subject whether prescribed or not in his curriculum  which he/she has taken in the School.</li>
+                   <li>If a Dean’s Lister shifted to another program, his/her current scholarship will be forfeited. However, he/she will be gain qualified for the succeeding semester, provided he/she meets the requirements aforementioned.</li>
+                   <li>Tuition Fee Discount for a Dean’s Lister</li>
+                   <br>
+                   <p>100%		=  1.14 to 1.00</p>
+                   <p>75%		= 1.24 to 1.15</p>
+                   <p>50%		= 1.34 to 1.25</p>
+                   <p>30%		=  1.44 to 1.35</p>
+                 </ul>
+                 
+  
+                </ion-card-content>
+            </ion-card>
+          </div>
+
+          <div *ngIf="data == 6">
+              <ion-card>
+               
+                <ion-card-content>
+                   <strong> Question:</strong>
+                   <br>
+                   <br>
+                   <h5>6.What is the Average to be qualifies anHonor Student?</h5>
+                    <br>
+                    <br>
+                   <strong> Answer:</strong>
+                   <br>
+                   <br>
+                   <p>Candidates for with Honors</p>
+                   <br>
+                   <p>Candidate for graduation who will be receiving honors shall have any of the following General Weighted Average:</p>
+                   <br>
+                   <p>Suma cum Laude - - - - - - - 1.10 to 1.00</p>
+                   <br>
+                   <p>Magna cum Laude - - - - - - 1.20 to 1.11</p>
+                   <br>
+                   <p>Cum Laude - - - - - - - - - - - - 1.30 to 1.21</p>
+                   <br>
+                   <p text-center>Where Suma Cum Laude can avail free tour aboard</p>
+                   <br>
+                   <p>With Honors - - - - - - - - - - - 1.31 to 1.50</p>
+                   <br>
+                   <p>Academic Achiever - - - - -  1.51 to 1.70</p>
+    
+                  </ion-card-content>
+              </ion-card>
+            </div>
+
+            <div *ngIf="data == 7">
+                <ion-card>
+                 
+                  <ion-card-content>
+                     <strong> Question:</strong>
+                     <br>
+                     <br>
+                     <h5>7.What  is requirement of Shifting of Programs?</h5>
+                      <br>
+                      <br>
+                     <strong> Answer:</strong>
+                     <br>
+                     <br>
+                     <p>Shipping of Programs. It should be allowed only with proper consent of parents. All cases of enrolment</p>
+                     <br>
+                     <p>Shall be duly approved by dean</p>
+            
+                    </ion-card-content>
+                </ion-card>
+              </div>
+
+              <div *ngIf="data == 8">
+                  <ion-card>
+                   
+                    <ion-card-content>
+                       <strong> Question:</strong>
+                       <br>
+                       <br>
+                       <h5>8. When do you need to renew you Student ID?</h5>
+                        <br>
+                        <br>
+                       <strong> Answer:</strong>
+                       <br>
+                       <br>
+                       <p>
+                          The exact time that you have to renew your ID's is when the school year are soon to be end for you to easily sign your clearance and also to avoid in the situation that hassle when the other students not renew their ID's in the exact time because many of our students wants to renew their ID when the signing of clearance is near or in that day. So when you renew your ID when before school year ends, you don’t have to rush yourself to be one of the students who will renew their ID on clearance signing. 
+
+                       </p>
+                       
+              
+                      </ion-card-content>
+                  </ion-card>
+
+              
+
+                </div>
+
+                <div *ngIf="data == 9">
+                  <ion-card>
+                    
+                     <ion-card-content>
+                        <strong> Question:</strong>
+                        <br>
+                        <br>
+                        <h5>9. What is the Refund Policy of ASIATECH?</h5>
+                         <br>
+                         <br>
+                        <strong> Answer:</strong>
+                        <br>
+                        <br>
+                        <p>
+                            A student who transfers or withdraws in writing within two (2) weeks after the beginning of the classes and who has already paid the prescribed tuition and other school fees in full or/for any length longer than one month, shall be charged twenty percent (20%) or if the student withdraws within the first week of classes, ten percent (10%) of the total amount due for the term. Student shall be charged all the school fees in full if he/she withdraws after the second week of classes. 
+
+                        </p>
+                        
+               
+                       </ion-card-content>
+                   </ion-card>
+                </div>
+
+                <div *ngIf="data == 10">
+                  <ion-card>
+                    
+                     <ion-card-content>
+                        <strong> Question:</strong>
+                        <br>
+                        <br>
+                        <h5>10. What are the Guidelines on Course Dropping? </h5>
+                         <br>
+                         <br>
+                        <strong> Answer:</strong>
+                        <br>
+                        <br>
+                        <p>
+                            The following procedure will guide the students in the dropping of courses: Secure a dropping form from the Registrar's Office. See the faculty concerned to seek his consent/advice and signature. Proceed to the Cahier for payment. Submit the accomplished dropping form to the Registrar's Office.
+                        </p>
+                        
+               
+                       </ion-card-content>
+                   </ion-card>
+                </div>
+
+
+</ion-content>

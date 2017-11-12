@@ -15,6 +15,8 @@ import { DoinfoPage } from '../pages/doinfo/doinfo';
 import { OfferPage } from '../pages/offer/offer';
 import { MapinfoPage } from '../pages/mapinfo/mapinfo';
 import { OrganizationinfoPage } from '../pages/organizationinfo/organizationinfo';
+import { FaqPage } from '../pages/faq/faq';
+import { FaqinfoPage } from '../pages/faqinfo/faqinfo';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -33,7 +35,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OfferPage,
     MapinfoPage,
     OrganizationinfoPage,
-    Studentinfo2Page
+    Studentinfo2Page,
+    FaqPage,
+    FaqinfoPage
   ],
   imports: [
     BrowserModule,
@@ -53,7 +57,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     OfferPage,
     MapinfoPage,
     OrganizationinfoPage,
-    Studentinfo2Page
+    Studentinfo2Page,
+    FaqPage,
+    FaqinfoPage
   ],
   providers: [
     StatusBar,
